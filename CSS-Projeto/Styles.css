@@ -1,0 +1,231 @@
+*, *::before,*::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    background:#f1f1f1f1;
+
+}
+#texto{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#logo img{
+    width: 90px;
+    height: 90px;
+}
+header{
+     text-align: center;
+     background:rgb(89, 157, 182);
+     margin: 0 auto;
+     padding: 0 auto;
+}
+header h1{
+    font-size: 2em;;
+    color: white;
+}
+nav ul {
+    list-style-type: none;
+    background: rgb(21,4,98);
+    margin: 0;
+    padding: 16px;
+    display: flex;
+    
+}
+nav a {
+   color: white;
+   text-decoration: none;   
+   padding: 12px;
+   display: flex;
+}
+
+nav li {
+    float: left;       
+}
+nav a:hover {
+     background-color:white;
+     color:rgb(21,4,98) ;
+
+}
+.carrossel{
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 10%;
+    
+}
+
+img{
+    margin-top: 10px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 3px;
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Img-Email{
+    height: auto;
+    max-width: 70%;
+    margin-left: 20px;
+}
+#ImgWhatsapp{
+    height: auto;
+    max-width: 70%;
+}
+#imgWhatsapp:hover{
+     background-color: yellow;
+     height: auto;
+     max-width: 100%;
+     
+}
+#emailInput{
+    width: 200px;;
+}
+
+.Conteudo{
+    padding: 0 10px;
+    display: flex;
+    max-width: 100%;
+
+}
+#texto-Avaliacao,li{
+    margin-left: 10px;
+    font-weight: bolder;
+    
+}
+#avTexto,textarea{
+  background-color:whitesmoke;
+  padding: 0 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+
+}
+section{
+     float: left;
+     width: 80%;
+}
+aside {
+    float: left;
+    width: 20%;
+    padding-left: 20px;
+    
+}
+
+#cadEmail{
+    margin-left: 10px;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#cadEmail:hover{
+    background-color:rgb(21,4,98);
+    color:white;
+
+}
+
+#casa2{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#valorCasa{
+    color: red;
+}
+.card{
+    
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.carrossel{
+    width: 80%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;  
+}
+
+
+input{
+    width: 40%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-family: sans-serif;
+    border: 1px solid gray;
+   
+}
+footer {
+    padding: 20px;
+    background: rgb(21,4,98);
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+h4{
+    text-align: center;
+
+}
+footer p {
+    float: left;
+}
+
+footer h5 {
+   text-align: right;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+#Mapa{
+   margin-top: 10px;
+  
+}
+iframe{
+    width: 100%;
+}
+#Avaliacao-Imagem{
+     width: 10%;
+     height: 10%;  
+}
+
+#Descricao{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 375px){
+   
+   .Conteudo{
+    float: none;
+    width: auto;
+   }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    header{
+        float: none;
+        width: auto;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+     
+   
+}

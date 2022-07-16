@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="CSS-Projeto/Styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link rel="icon" type="imagem/png" href="./Imagens/Logo.ico"/>
+    <title>Imobiliária</title> 
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1> Imobiliária</h1> 
+            <img src="./Imagens/Logo-Site.png" alt="Logotipo site">
+        </div>   
+        <nav>
+            <ul>
+                <li><a href="./Index.html">Home </a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./Acomodacoes.html">Acomodações</a></li>
+                <li><a href="./Localizacao.html">Localização</a> </li>
+                <li><a href="./Avaliações.html">Avaliações</a></li>
+                <li><a href="./Reservas.html">Reservas</a></li>
+            </ul>
+       </nav>
+   
+    </header>
+    
+     <div class="Conteudo">
+        <section>
+            <article class="card">
+                <h2>Casa para Locação</h2>
+                <a href="#" onclick="valorDiarias();"> Saiba mais! </a>
+                <img src="./Imagens/Img-principal.jpg" alt="Casa" >
+                <div id="Avaliacao-Imagem">
+                    <img src="./Imagens/./avaliacao.png" alt="Icone-Avaliação">
+                </div> 
+                <div id="Descricao">
+                    <p> 
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui ex fugiat officia earum cumque dolorum in aliquid aut unde hic quos quia minima adipisci possimus, eaque magni nam voluptate accusantium. <br>   
+                     </p> 
+                </div>  
+            </article>
+            <article class="card">
+                <h2>Casa à Venda </h2>
+                <s> R$ 1.800.000,00 </s><h2 id="valorCasa">R$ 1.300.000,00</h2>
+                <img src="./Imagens/Casa2.jpg" alt="Casa2" >
+                <div>
+                     <ul id="casa2">
+                         <li>450 m²</li>
+                         <li>8 quartos</li>
+                         <li>3 vagas</li>
+                     </ul> 
+                </div>  
+            </article>
+
+
+        </section>
+        
+        <aside>
+            <div class="card">
+                  <iframe id="load-selo" allowtransparency="true" frameborder="0" data-url="https://www.climaaovivo.com.br/widget/cidade/991" src="https://www.climaaovivo.com.br/widget/cidade/991/sfv/5A5A5A/5A5A5A/ffffff" width="180px" height="280px" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+            </div>
+
+            <div class="card">
+                <h5>Inscreva-se e enviaremos as melhores ofertas para você</h5>
+                <img id="Img-Email" src="./Imagens/ImgEmailjpg.jpg" alt="Logo-Email">
+                <form action="">
+                    <label> 
+                         <input type="text" id="emailInput" placeholder="Seu e-mail:"><button onclick="cadastrarEmail();" id="cadEmail">Inscreva-se</button>
+                    </label> 
+                </form>
+               
+            </div>
+            <div class="card">
+                <img src="./Imagens/whatsapp.png" alt="Imagem-Whatsapp" onclick="mensagem();" id="imgWhatsapp">
+            </div>
+        </aside>
+    </div>
+</aside>
+</div>
+    <footer>
+        <p>Campos do Jordão</p>
+        <h5>Copyright &copy; 2022 - Imobiliária. Todos os direitos reservados.</h5>
+        <p>(12)5555-5555</p>
+    </footer>
+
+    <script src="./JS/funcoes.js">  </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</body>
+
+</html>

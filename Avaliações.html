@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="CSS-Projeto/Styles.css" type="text/css">
+    <link rel="stylesheet" href="./CSS-Projeto/Form.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link rel="icon" type="imagem/png" href="./Imagens/Logo.ico"/>
+    <title>Avaliações</title>
+   
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <h1>Avaliações</h1> 
+            <img src="./Imagens/Logo-Site.png" alt="Logotipo site">
+        </div>   
+          
+    </header>
+    <nav>
+         <ul>
+            <li><a href="./Index.html">Home </a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./sobre.html">Acomodações</a></li>
+            <li><a href="./Localizacao.html">Localização</a> </li>
+            <li><a href="./Avaliações.html">Avaliações</a></li>
+            <li><a href="./Reservas.html">Reservas</a></li>
+         </ul>
+    </nav>
+     <div class="Conteudo">
+        <section>
+                <h1>Deixe sua Avaliação</h1> 
+                <div id="avTexto">
+                        <textarea name="Avaliacao" id="textoAv" cols="100" rows="10" placeholder="Nome - Avaliação"></textarea> <br>
+                        <button type="button" onclick="adicionarAvaliacao();limpar();"> Publicar</button>   
+                </div>  
+                <div id="avaliacaoLista">
+                    <p id="texto-Avaliacao">                       
+                        <h1>Avaliações: </h1>
+                        <p>
+                           
+                        </p>
+                    </p>
+                </div>        
+        </section>
+        <aside>
+            <article class="card">
+                <h3> Anúncio</h3>
+                <img src="./Imagens/Cervejaria-Baden-Baden.jpg" alt="Anuncio Baden-Baden">
+            </article>
+
+            <article class="card">
+                <h3> Anúncio</h3>
+                <img src="./Imagens/logo-tarundu.png" alt="Anuncio Tarundu">
+            </article>
+        </aside>
+    </div>
+    <footer>
+        <p>Campos do Jordão</p>
+        <h5>Copyright &copy; 2022 - Imobiliária. Todos os direitos reservados.</h5>
+        <p>(12)5555-5555</p>
+    </footer>
+    <script src="./JS/funcoes.js"></script>
+</body>
+</html>
